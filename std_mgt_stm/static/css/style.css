@@ -1,0 +1,129 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #f6ecec;
+}
+
+form {
+    background: #fff;
+    padding: 80px 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],[type="number"],[type="email"],[type="tel"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0b224f;
+    color: white;
+    padding: 10px 85px;
+    border: none;
+    border-radius: 4px solid black;
+    cursor: pointer;
+    top: 90%;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #f3f1f1;
+    box-shadow: 0 2px 10px rgba(246, 244, 244, 0.1);
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+th {
+    background-color: #8b8b8b;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333; 
+}
+
+form {
+    background: #f5f3f3;
+    padding: 40px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 600px; 
+}
+
+input[type="text"],[type="number"],[type="email"],[type="tel"],[type="submit"] {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin: 5px 0; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+input[type="submit"] {
+    background-color: #0b224f;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover {
+    background-color: #093a6b; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #f0ebeb; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px; 
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+th {
+    background-color: #8b8b8b;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
